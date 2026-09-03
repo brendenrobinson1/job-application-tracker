@@ -35,3 +35,22 @@ Job application tracker created using Python that can add, view, update, and sea
 
 ```bash
 git clone https://github.com/brendenrobinson1/job-application-tracker.git
+```
+
+2. Navigate into the project directory:
+
+```bash
+cd job-application-tracker
+```
+
+3. Run the application:
+
+```bash
+python3 AppJobTracker.py
+```
+
+Windows users may need to run:
+
+```bash
+python AppJobTracker.py
+```
