@@ -54,3 +54,15 @@ Windows users may need to run:
 ```bash
 python AppJobTracker.py
 ```
+
+## Example Usage
+
+After adding applications, users can search for matching records by company:
+
+```text
+Would you like to search by date or company? company
+What is the name of the company you applied for? Acme Corporation
+
+1: Role: Security Analyst Company: Acme Corporation Status: Applied
+2: Role: Software Developer Company: Acme Corporation Status: Interviewing
+```
