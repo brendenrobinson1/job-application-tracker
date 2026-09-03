@@ -72,3 +72,14 @@ What is the name of the company you applied for? Acme Corporation
 - Applications are only temporarily stored, then deleted once the program is no longer running.
 - Search functions requires you to type the date or time exactly as you entered.
 - Invalid input, such as letters where a number is expected or an out-of-range selection, may cause an error.
+
+## Planned Improvements
+
+### Version 2.0.0
+
+- [ ] Add file persistence so applications remain available after the program closes.
+- [ ] Add input validation for menu choices and application selections.
+- [ ] Add error handling to prevent invalid input from crashing the program.
+- [ ] Support case-insensitive searches.
+- [ ] Organize repeated operations into reusable functions.
+- [ ] Apply additional secure coding practices.
