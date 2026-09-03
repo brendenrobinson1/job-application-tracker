@@ -66,3 +66,9 @@ What is the name of the company you applied for? Acme Corporation
 1: Role: Security Analyst Company: Acme Corporation Status: Applied
 2: Role: Software Developer Company: Acme Corporation Status: Interviewing
 ```
+
+## Current Limitations
+
+- Applications are only temporarily stored, then deleted once the program is no longer running.
+- Search functions requires you to type the date or time exactly as you entered.
+- Invalid input, such as letters where a number is expected or an out-of-range selection, may cause an error.
