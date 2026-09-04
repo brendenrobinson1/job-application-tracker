@@ -73,6 +73,11 @@ What is the name of the company you applied for? Acme Corporation
 - Search functions requires you to type the date or time exactly as you entered.
 - Invalid input, such as letters where a number is expected or an out-of-range selection, may cause an error.
 
+## What I Learned
+
+This project taught me how the concepts I’ve learned separately come together to make a complete program work. I’ve learned to approach code from a problem-solving standpoint and think of programming concepts as tools. The Job Application Tracker also helped me learn how to translate pseudocode into actual code, something I hadn’t previously practiced. Through trial and error, I’ve gotten better at understanding how control flow determines when and how often code executes, as well as the importance of proper indentation through coding in Python.
+
+
 ## Planned Improvements
 
 ### Version 2.0.0
