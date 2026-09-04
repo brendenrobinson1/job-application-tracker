@@ -1,6 +1,6 @@
 # Job Application Tracker
 
-## Overfiew
+## Overview
 
 Job application tracker created using Python that can add, view, update, and search through a list of user supplied job applications from the command line. Users enter application details, which are then stored in a list using dictionaries for the duration of the program. The reason I started this project is to deepen my fundamental knowledge of coding outside of a classroom setting, and to learn to think more like a programmer.
 
@@ -8,15 +8,15 @@ Job application tracker created using Python that can add, view, update, and sea
 
 - **Add applications:** Enter a company name, job title, application date, and current status.
 - **View applications:** View details of all applications entered by the user.
-- **Search applications:** Search through user applications based on either date or company
+- **Search applications:** Search through user applications based on either date or company.
 - **Update status:** Update the status of a selected application (e.g., applied, interviewing, hired, or rejected).
 
 ## How It Works
 
-- Each application is created and placed in a dictionary, which is then stored in a list of dictionaries.
-- Applications are collected and can be viewed by enumerating through a list of all of the user entered applications.
-- A `while` loop is used to run through the functions "while" the program is running, making the application functional until a user decides to quit.
-- When searching, a `for` loop is used to loop through a list of applications that compare all available applications against the ones that match the search criteria, either by date or company.
+- Each application is represented as a dictionary and appended to the applications list.
+- enumerate() is used to display applications with numbered selections.
+- The while loop keeps displaying the menu while program_is_running is True.
+- The search for loop compares each application against the search criteria and appends matches to a separate list.
 
 ## Technologies Used
 
@@ -69,13 +69,13 @@ What is the name of the company you applied for? Acme Corporation
 
 ## Current Limitations
 
-- Applications are only temporarily stored, then deleted once the program is no longer running.
-- Search functions requires you to type the date or time exactly as you entered.
+- Applications are only temporarily stored, then lost once the program is no longer running.
+- Search requires you to type the application date or campany name exactly as you entered.
 - Invalid input, such as letters where a number is expected or an out-of-range selection, may cause an error.
 
 ## What I Learned
 
-This project taught me how the concepts I’ve learned separately come together to make a complete program work. I’ve learned to approach code from a problem-solving standpoint and think of programming concepts as tools. The Job Application Tracker also helped me learn how to translate pseudocode into actual code, something I hadn’t previously practiced. Through trial and error, I’ve gotten better at understanding how control flow determines when and how often code executes, as well as the importance of proper indentation through coding in Python.
+This project taught me how the concepts I’ve learned separately come together to make a complete program work. I’ve learned to approach code from a problem-solving standpoint and think of programming concepts as tools. The Job Application Tracker also helped me learn how to translate pseudocode into actual code, something I hadn’t previously practiced. Through trial and error, I’ve gotten better at understanding how control flow determines when and how often code executes, as well as the role proper indentation plays in Python
 
 
 ## Planned Improvements
