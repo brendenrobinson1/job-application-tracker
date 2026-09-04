@@ -13,10 +13,10 @@ Job application tracker created using Python that can add, view, update, and sea
 
 ## How It Works
 
-- Each application is represented as a dictionary and appended to the applications list.
-- enumerate() is used to display applications with numbered selections.
-- The while loop keeps displaying the menu while program_is_running is True.
-- The search for loop compares each application against the search criteria and appends matches to a separate list.
+- Each application is represented as a dictionary and appended to the `applications` list.
+- `enumerate()` is used to display applications with numbered selections.
+- A `while` loop keeps displaying the menu while `program_is_running` is `True`.
+- The search `for` loop compares each application against the search criteria and appends matches to a separate list.
 
 ## Technologies Used
 
@@ -70,12 +70,12 @@ What is the name of the company you applied for? Acme Corporation
 ## Current Limitations
 
 - Applications are only temporarily stored, then lost once the program is no longer running.
-- Search requires you to type the application date or campany name exactly as you entered.
+- Search requires you to type the application date or company name exactly as you entered.
 - Invalid input, such as letters where a number is expected or an out-of-range selection, may cause an error.
 
 ## What I Learned
 
-This project taught me how the concepts I’ve learned separately come together to make a complete program work. I’ve learned to approach code from a problem-solving standpoint and think of programming concepts as tools. The Job Application Tracker also helped me learn how to translate pseudocode into actual code, something I hadn’t previously practiced. Through trial and error, I’ve gotten better at understanding how control flow determines when and how often code executes, as well as the role proper indentation plays in Python
+This project taught me how the concepts I’ve learned separately come together to make a complete program work. I’ve learned to approach code from a problem-solving standpoint and think of programming concepts as tools. The Job Application Tracker also helped me learn how to translate pseudocode into actual code, something I hadn’t previously practiced. Through trial and error, I’ve gotten better at understanding how control flow determines when and how often code executes, as well as the role proper indentation plays in Python.
 
 
 ## Planned Improvements
